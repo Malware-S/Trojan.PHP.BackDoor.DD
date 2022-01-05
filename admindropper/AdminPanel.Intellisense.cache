@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<namespaces version="2.0">
+	<namespace name="PHP">
+		<files>
+			<file name="act\stats.php" index="14" />
+			<file name="config.php" index="21" />
+			<file name="common.php" index="20" />
+			<file name="act\settings.php" index="13" />
+			<file name="act\logs.php" index="12" />
+			<file name="act\files.php" index="11" />
+			<file name="geo\geoipcity.inc" index="18" />
+			<file name="gate.php" index="22" />
+			<file name="act\cron.php" index="10" />
+			<file name="act\tasks.php" index="15" />
+			<file name="install.php" index="51" />
+			<file name="geo\geoipregionvars.php" index="19" />
+			<file name="act\bots.php" index="26" />
+			<file name="templates\header.tpl" index="24" />
+			<file name="templates\footer.tpl" index="25" />
+			<file name="geo\geoip.inc" index="17" />
+			<file name="act\tasksajax.php" index="16" />
+		</files>
+		<symbols>
+			<symbol name="_geoip_seek_country" description="_geoip_seek_country($gi, $ipnum)
+Namespace PHP" glyph="72" fileName="17" lineNumber="345"/>
+			<symbol name="_get_org" description="_get_org($gi,$ipnum)
+Namespace PHP" glyph="72" fileName="17" lineNumber="387"/>
+			<symbol name="_get_record" description="_get_record($gi, $ipnum)
+Namespace PHP" glyph="72" fileName="18" lineNumber="121"/>
+			<symbol name="_get_region" description="_get_region($gi,$ipnum)
+Namespace PHP" glyph="72" fileName="17" lineNumber="412"/>
+			<symbol name="_setup_segments" description="_setup_segments($gi)
+Namespace PHP" glyph="72" fileName="17" lineNumber="196"/>
+			<symbol name="APP_ROOT_PATH" description="APP_ROOT_PATH has a value of dirname(__FILE__).&apos;/..&apos;" glyph="6" fileName="10" lineNumber="2"/>
+			<symbol name="bdecodestr" description="bdecodestr($data, &amp;$id, &amp;$type, &amp;$raw_data)
+Namespace PHP" glyph="72" fileName="22" lineNumber="11"/>
+			<symbol name="BOTS_PER_PAGE" description="BOTS_PER_PAGE has a value of 13" glyph="6" fileName="26" lineNumber="1"/>
+			<symbol name="CANADA_OFFSET" description="CANADA_OFFSET has a value of 677" glyph="6" fileName="17" lineNumber="163"/>
+			<symbol name="countryArrayToDB" description="countryArrayToDB($a)
+Namespace PHP" glyph="72" fileName="20" lineNumber="53"/>
+			<symbol name="countryFromDB" description="countryFromDB($c1, $c2, $c3, $c4)
+Namespace PHP" glyph="72" fileName="20" lineNumber="40"/>
+			<symbol name="countryListFromDB" description="countryListFromDB($db)
+Namespace PHP" glyph="72" fileName="20" lineNumber="65"/>
+			<symbol name="CreateConfigFile" description="CreateConfigFile()
+Namespace PHP" glyph="72" fileName="51" lineNumber="43"/>
+			<symbol name="CreateDatabase" description="CreateDatabase()
+Namespace PHP" glyph="72" fileName="51" lineNumber="76"/>
+			<symbol name="cronUpdateDaily" description="cronUpdateDaily($db, $botOnlineMinutes, $botToDeadDays)
+Namespace PHP" glyph="72" fileName="10" lineNumber="26"/>
+			<symbol name="curPageURL" description="curPageURL()
+Namespace PHP" glyph="72" fileName="20" lineNumber="2"/>
+			<symbol name="DATABASE_INFO_MAX_SIZE" description="DATABASE_INFO_MAX_SIZE has a value of 100" glyph="6" fileName="17" lineNumber="149"/>
+			<symbol name="Db_Mysql" description="class Db_Mysql
+Namespace PHP" glyph="0" fileName="20" lineNumber="149"/>
+			<symbol name="debug" description="Backtrace debug" glyph="72" fileName="20" lineNumber="414"/>
+			<symbol name="error404" description="error404()
+Namespace PHP" glyph="72" fileName="20" lineNumber="117"/>
+			<symbol name="FIPS_RANGE" description="FIPS_RANGE has a value of 360" glyph="6" fileName="17" lineNumber="165"/>
+			<symbol name="format_bytes" description="format_bytes($bytes)
+Namespace PHP" glyph="72" fileName="20" lineNumber="75"/>
+			<symbol name="FULL_RECORD_LENGTH" description="" glyph="6" fileName="18" lineNumber="21"/>
+			<symbol name="GeoIP" description="class GeoIP
+Namespace PHP" glyph="0" fileName="17" lineNumber="167"/>
+			<symbol name="GEOIP_CITY_EDITION_REV0" description="GEOIP_CITY_EDITION_REV0 has a value of 111" glyph="6" fileName="17" lineNumber="153"/>
+			<symbol name="GEOIP_CITY_EDITION_REV1" description="GEOIP_CITY_EDITION_REV1 has a value of 2" glyph="6" fileName="17" lineNumber="154"/>
+			<symbol name="geoip_close" description="geoip_close($gi)
+Namespace PHP" glyph="72" fileName="17" lineNumber="296"/>
+			<symbol name="GEOIP_COUNTRY_BEGIN" description="GEOIP_COUNTRY_BEGIN has a value of 16776960" glyph="6" fileName="17" lineNumber="142"/>
+			<symbol name="geoip_country_code_by_addr" description="geoip_country_code_by_addr($gi, $addr)
+Namespace PHP" glyph="72" fileName="17" lineNumber="329"/>
+			<symbol name="geoip_country_code_by_name" description="geoip_country_code_by_name($gi, $name)
+Namespace PHP" glyph="72" fileName="17" lineNumber="308"/>
+			<symbol name="GEOIP_COUNTRY_EDITION" description="GEOIP_COUNTRY_EDITION has a value of 106" glyph="6" fileName="17" lineNumber="150"/>
+			<symbol name="geoip_country_id_by_addr" description="geoip_country_id_by_addr($gi, $addr)
+Namespace PHP" glyph="72" fileName="17" lineNumber="324"/>
+			<symbol name="geoip_country_id_by_name" description="geoip_country_id_by_name($gi, $name)
+Namespace PHP" glyph="72" fileName="17" lineNumber="300"/>
+			<symbol name="geoip_country_name_by_addr" description="geoip_country_name_by_addr($gi, $addr)
+Namespace PHP" glyph="72" fileName="17" lineNumber="337"/>
+			<symbol name="geoip_country_name_by_name" description="geoip_country_name_by_name($gi, $name)
+Namespace PHP" glyph="72" fileName="17" lineNumber="316"/>
+			<symbol name="geoip_load_shared_mem" description="geoip_load_shared_mem ($file)
+Namespace PHP" glyph="72" fileName="17" lineNumber="176"/>
+			<symbol name="GEOIP_MEMORY_CACHE" description="GEOIP_MEMORY_CACHE has a value of 1" glyph="6" fileName="17" lineNumber="146"/>
+			<symbol name="geoip_open" description="geoip_open($filename, $flags)
+Namespace PHP" glyph="72" fileName="17" lineNumber="276"/>
+			<symbol name="geoip_org_by_addr" description="geoip_org_by_addr ($gi,$addr)
+Namespace PHP" glyph="72" fileName="17" lineNumber="404"/>
+			<symbol name="GEOIP_ORG_EDITION" description="GEOIP_ORG_EDITION has a value of 110" glyph="6" fileName="17" lineNumber="155"/>
+			<symbol name="GeoIP_record_by_addr" description="GeoIP_record_by_addr($gi, $addr)
+Namespace PHP" glyph="72" fileName="18" lineNumber="219"/>
+			<symbol name="geoip_region_by_addr" description="geoip_region_by_addr ($gi,$addr)
+Namespace PHP" glyph="72" fileName="17" lineNumber="446"/>
+			<symbol name="GEOIP_REGION_EDITION_REV0" description="GEOIP_REGION_EDITION_REV0 has a value of 112" glyph="6" fileName="17" lineNumber="151"/>
+			<symbol name="GEOIP_REGION_EDITION_REV1" description="GEOIP_REGION_EDITION_REV1 has a value of 3" glyph="6" fileName="17" lineNumber="152"/>
+			<symbol name="GEOIP_SHARED_MEMORY" description="GEOIP_SHARED_MEMORY has a value of 2" glyph="6" fileName="17" lineNumber="147"/>
+			<symbol name="GEOIP_SHM_KEY" description="GEOIP_SHM_KEY has a value of 0x4f415401" glyph="6" fileName="17" lineNumber="161"/>
+			<symbol name="GEOIP_STANDARD" description="GEOIP_STANDARD has a value of 0" glyph="6" fileName="17" lineNumber="145"/>
+			<symbol name="GEOIP_STATE_BEGIN_REV0" description="GEOIP_STATE_BEGIN_REV0 has a value of 16700000" glyph="6" fileName="17" lineNumber="143"/>
+			<symbol name="GEOIP_STATE_BEGIN_REV1" description="GEOIP_STATE_BEGIN_REV1 has a value of 16000000" glyph="6" fileName="17" lineNumber="144"/>
+			<symbol name="geoipdnsrecord" description="class geoipdnsrecord
+Namespace PHP" glyph="0" fileName="18" lineNumber="40"/>
+			<symbol name="geoiprecord" description="class geoiprecord
+Namespace PHP" glyph="0" fileName="18" lineNumber="26"/>
+			<symbol name="getdnsattributes" description="getdnsattributes ($l,$ip)
+Namespace PHP" glyph="72" fileName="17" lineNumber="454"/>
+			<symbol name="GetFiledByFileId" description="GetFiledByFileId($name, $id)
+Namespace PHP" glyph="72" fileName="15" lineNumber="186"/>
+			<symbol name="getIP" description="getIP()
+Namespace PHP" glyph="72" fileName="20" lineNumber="135"/>
+			<symbol name="GetOption" description="GetOption($name)
+Namespace PHP" glyph="72" fileName="10" lineNumber="15"/>
+			<symbol name="getrecordwithdnsservice" description="getrecordwithdnsservice($str)
+Namespace PHP" glyph="72" fileName="18" lineNumber="57"/>
+			<symbol name="GetServerData" description="GetServerData()
+Namespace PHP" glyph="72" fileName="22" lineNumber="21"/>
+			<symbol name="GetStatsByField" description="" glyph="72" fileName="14" lineNumber="136"/>
+			<symbol name="httpAuth" description="httpAuth()
+Namespace PHP" glyph="72" fileName="20" lineNumber="106"/>
+			<symbol name="httpNoCache" description="httpNoCache()
+Namespace PHP" glyph="72" fileName="20" lineNumber="90"/>
+			<symbol name="httpRedirect" description="httpRedirect($url)
+Namespace PHP" glyph="72" fileName="20" lineNumber="84"/>
+			<symbol name="httpSendAuthForm" description="httpSendAuthForm()
+Namespace PHP" glyph="72" fileName="20" lineNumber="98"/>
+			<symbol name="MAX_ORG_RECORD_LENGTH" description="MAX_ORG_RECORD_LENGTH has a value of 300" glyph="6" fileName="17" lineNumber="160"/>
+			<symbol name="MAX_RECORD_LENGTH" description="MAX_RECORD_LENGTH has a value of 4" glyph="6" fileName="17" lineNumber="159"/>
+			<symbol name="metaRefresh" description="metaRefresh($url)
+Namespace PHP" glyph="72" fileName="20" lineNumber="112"/>
+			<symbol name="MYSQL_DB" description="MYSQL_DB has a value of &apos;drop_db&apos;" glyph="6" fileName="21" lineNumber="5"/>
+			<symbol name="MYSQL_DEBUG" description="MYSQL_DEBUG has a value of true" glyph="6" fileName="51" lineNumber="32"/>
+			<symbol name="MYSQL_HOST" description="MYSQL_HOST has a value of &apos;localhost&apos;" glyph="6" fileName="21" lineNumber="2"/>
+			<symbol name="MYSQL_LOGIN" description="MYSQL_LOGIN has a value of &apos;drop_db&apos;" glyph="6" fileName="21" lineNumber="3"/>
+			<symbol name="MYSQL_PASSWORD" description="MYSQL_PASSWORD has a value of &apos;dPBC5EWtMHRQA7Jb&apos;" glyph="6" fileName="21" lineNumber="4"/>
+			<symbol name="notEmpty" description="notEmpty($el)
+Namespace PHP" glyph="72" fileName="20" lineNumber="35"/>
+			<symbol name="ORG_RECORD_LENGTH" description="ORG_RECORD_LENGTH has a value of 4" glyph="6" fileName="17" lineNumber="158"/>
+			<symbol name="PAGE_DIFF" description="PAGE_DIFF has a value of 5" glyph="6" fileName="26" lineNumber="2"/>
+			<symbol name="PASS" description="PASS has a value of &apos;9fcd49c09984f4960da6cb32b7e755a9&apos;" glyph="6" fileName="21" lineNumber="8"/>
+			<symbol name="percent" description="percent($val, $p)
+Namespace PHP" glyph="72" fileName="20" lineNumber="14"/>
+			<symbol name="randstr" description="randstr($nc, $a=&apos;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&apos;)
+Namespace PHP" glyph="72" fileName="20" lineNumber="400"/>
+			<symbol name="RC4" description="RC4($pt, $key)
+Namespace PHP" glyph="72" fileName="20" lineNumber="372"/>
+			<symbol name="SEGMENT_RECORD_LENGTH" description="SEGMENT_RECORD_LENGTH has a value of 3" glyph="6" fileName="17" lineNumber="156"/>
+			<symbol name="SRV_TYPE_LOADFILE" description="SRV_TYPE_LOADFILE has a value of &apos;35&apos;" glyph="6" fileName="22" lineNumber="8"/>
+			<symbol name="SRV_TYPE_LOG" description="SRV_TYPE_LOG has a value of &apos;36&apos;" glyph="6" fileName="22" lineNumber="9"/>
+			<symbol name="SRV_TYPE_REPORT" description="SRV_TYPE_REPORT has a value of &apos;33&apos;" glyph="6" fileName="22" lineNumber="6"/>
+			<symbol name="SRV_TYPE_TASKANSWER" description="SRV_TYPE_TASKANSWER has a value of &apos;34&apos;" glyph="6" fileName="22" lineNumber="7"/>
+			<symbol name="STANDARD_RECORD_LENGTH" description="STANDARD_RECORD_LENGTH has a value of 3" glyph="6" fileName="17" lineNumber="157"/>
+			<symbol name="STRUCTURE_INFO_MAX_SIZE" description="STRUCTURE_INFO_MAX_SIZE has a value of 20" glyph="6" fileName="17" lineNumber="148"/>
+			<symbol name="TIME_DEBUG" description="TIME_DEBUG has a value of true" glyph="6" fileName="51" lineNumber="33"/>
+			<symbol name="US_OFFSET" description="US_OFFSET has a value of 1" glyph="6" fileName="17" lineNumber="162"/>
+			<symbol name="USER" description="USER has a value of &apos;lookbehind&apos;" glyph="6" fileName="21" lineNumber="7"/>
+			<symbol name="WORLD_OFFSET" description="WORLD_OFFSET has a value of 1353" glyph="6" fileName="17" lineNumber="164"/>
+		</symbols>
+	</namespace>
+</namespaces>
